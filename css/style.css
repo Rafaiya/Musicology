@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*header part*/
+header {
+    width: 100%;
+    float: left;
+}
+nav {
+    background-color: gray;
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.logo-part{
+    width: 25%;
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 25px 0px;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.menu-part a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.search-part{
+    width: 25%;
+    float: left;
+    text-align: end;
+}
+.search-part i{
+    font-size: 20px;
+    margin: 20px 0px;
+    color: whitesmoke;
+}
+
+/*About Section*/
+#about{
+    width: 100%;
+    float: left;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 75px 0;
+}
+.about-writing-part{
+    width: 100%;
+    float: left;
+}
+.about-box-part{
+    width: 100%;
+    float: left;
+    padding: 30px 0 0 0;
+}
+.about-box{
+    width: 33.33%;
+    float: left;
+}
